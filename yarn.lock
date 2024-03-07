@@ -1516,7 +1516,7 @@
     prop-types "15.8.1"
     react-native-keyboard-aware-scroll-view "^0.9.3"
 
-"@modules/onboarding@file:./modules/onboarding/":
+"@modules/onboarding@file:./modules/onboarding":
   version "1.0.0"
   dependencies:
     prop-types "^15.8.1"
