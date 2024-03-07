@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "90f9f1360fd3da3aa257d4ca09a68950d7f9ae0c615a1789de87656a014c6a25"
+            "sha256": "8a5f343df392bc7b1cf01e211d272776dd8c4b50d7076dcc89f4011b019f18bb"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -71,6 +71,10 @@
         "cb-django-google-appointment": {
             "editable": true,
             "path": "./modules/django_google_appointment"
+        },
+        "cb-privacy-policy": {
+            "editable": true,
+            "path": "./modules/privacy_policy"
         },
         "certifi": {
             "hashes": [
