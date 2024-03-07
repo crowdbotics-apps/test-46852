@@ -1498,20 +1498,6 @@
     uuid "^8.3.2"
     zustand "^3.5.13"
 
-"@modules/chat@file:./modules/chat/":
-  version "1.1.0"
-  dependencies:
-    is-url "^1.2.4"
-    pubnub "^4.33.0"
-    pubnub-react "^2.1.0"
-    react-native-emoji-selector "0.2.0"
-    react-native-fs "2.19.0"
-    react-native-gifted-chat "^2.1.0"
-    react-native-popup-menu "0.15.12"
-    react-native-video "5.2.1"
-    uuid "^8.3.2"
-    zustand "^3.5.13"
-
 "@modules/contact-us@file:./modules/contact-us":
   version "1.0.1"
   dependencies:
@@ -1545,6 +1531,9 @@
     react-native-render-html "^5.1.0"
 
 "@modules/profile@file:./modules/profile":
+  version "1.0.0"
+
+"@modules/push-notifications@file:./modules/push-notifications/":
   version "1.0.0"
 
 "@nicolo-ribaudo/eslint-scope-5-internals@5.1.1-v1":
@@ -5434,7 +5423,7 @@ interpret@^3.1.1:
   resolved "https://registry.yarnpkg.com/interpret/-/interpret-3.1.1.tgz#5be0ceed67ca79c6c4bc5cf0d7ee843dcea110c4"
   integrity sha512-6xwYfHbajpoF0xLW+iwLkhwgvLoZDfjYfoFNu8ftMoXINzwuymNLd9u/KmwtdT2GbR+/Cz66otEGEVVUHX9QLQ==
 
-invariant@*, invariant@2.2.4, invariant@^2.2.4:
+invariant@*, invariant@2.2.4, invariant@^2.2.2, invariant@^2.2.4:
   version "2.2.4"
   resolved "https://registry.yarnpkg.com/invariant/-/invariant-2.2.4.tgz#610f3c92c9359ce1db616e538008d23ff35158e6"
   integrity sha512-phJfQVBuaJM5raOpJjSfkiD6BpbCE4Ns//LaXl6wGYtUBY83nWS6Rf9tXm2e8VaK60JEjYldbPif/A2B1C2gNA==
@@ -8027,6 +8016,13 @@ react-native-linear-gradient@^2.4.0:
   version "2.8.3"
   resolved "https://registry.yarnpkg.com/react-native-linear-gradient/-/react-native-linear-gradient-2.8.3.tgz#9a116649f86d74747304ee13db325e20b21e564f"
   integrity sha512-KflAXZcEg54PXkLyflaSZQ3PJp4uC4whM7nT/Uot9m0e/qxFV3p6uor1983D1YOBJbJN7rrWdqIjq0T42jOJyA==
+
+react-native-onesignal@^4.0.3:
+  version "4.5.2"
+  resolved "https://registry.yarnpkg.com/react-native-onesignal/-/react-native-onesignal-4.5.2.tgz#31b9eaf13ee61be3725a4f77f03fba163cc06ac8"
+  integrity sha512-o7ksZAYzotmYsSSv5j+3779G5uoPbh7cPeJapJTPIfImtbsCjDhMVIix0qKxfT3R3V25BPxvMT0P5kM5ijVu9g==
+  dependencies:
+    invariant "^2.2.2"
 
 react-native-pager-view@5.4.15:
   version "5.4.15"
