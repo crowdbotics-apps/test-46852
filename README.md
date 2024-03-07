@@ -69,6 +69,7 @@ This section will show any installed modules you add from the Storyboard Modules
 - [privacy-policy]()
 - [react-native-onboarding](modules/onboarding)
 - [react-native-privacy-policy-webview](modules/privacy-policy-webview)
+- [profile]()
 
 # Getting started: Frontend
 
