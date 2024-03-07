@@ -1479,11 +1479,6 @@
   dependencies:
     react-native-dropdown-picker "5.3.0"
 
-"@modules/appointment-local@file:./modules/appointment-local/":
-  version "1.0.1"
-  dependencies:
-    react-native-dropdown-picker "5.3.0"
-
 "@modules/appointment@file:./modules/appointment":
   version "1.0.0"
   dependencies:
@@ -1509,6 +1504,13 @@
     zustand "^3.5.13"
 
 "@modules/contact-us@file:./modules/contact-us":
+  version "1.0.1"
+  dependencies:
+    "@react-navigation/native" "6.0.8"
+    "@react-navigation/native-stack" "6.5.0"
+    react-native-screens "3.10.2"
+
+"@modules/contact-us@file:./modules/contact-us/":
   version "1.0.1"
   dependencies:
     "@react-navigation/native" "6.0.8"
