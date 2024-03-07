@@ -35,6 +35,6 @@ drf-spectacular = "~=0.26.4"
 dj-rest-auth = "==5.0.1"
 cb-django-push-notifications = {editable = true, path = "./modules/django_push_notifications"}
 cb-profile = {editable = true, path = "./modules/profile"}
-cb-privacy-policy = {editable = true, path = "./modules/privacy_policy"}
 cb-django-google-appointment = {editable = true, path = "./modules/django_google_appointment"}
 cb-django-core = {editable = true, path = "./modules/django_core"}
+cb-privacy-policy = {editable = true, path = "./modules/privacy_policy"}
