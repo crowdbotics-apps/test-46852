@@ -1556,7 +1556,10 @@
 "@modules/splash@file:./modules/splash":
   version "1.0.0"
 
-"@modules/terms-and-conditions-webview@file:./modules/terms-and-conditions-webview/":
+"@modules/splash@file:./modules/splash/":
+  version "1.0.0"
+
+"@modules/terms-and-conditions-webview@file:./modules/terms-and-conditions-webview":
   version "1.0.0"
 
 "@nicolo-ribaudo/eslint-scope-5-internals@5.1.1-v1":
