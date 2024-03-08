@@ -1510,13 +1510,6 @@
     "@react-navigation/native-stack" "6.5.0"
     react-native-screens "3.10.2"
 
-"@modules/contact-us@file:./modules/contact-us/":
-  version "1.0.1"
-  dependencies:
-    "@react-navigation/native" "6.0.8"
-    "@react-navigation/native-stack" "6.5.0"
-    react-native-screens "3.10.2"
-
 "@modules/faq@file:./modules/faq":
   version "1.0.0"
 
@@ -1534,10 +1527,13 @@
     prop-types "^15.8.1"
     react-native-app-intro-slider "^4.0.4"
 
-"@modules/privacy-policy-webview@file:./modules/privacy-policy-webview":
+"@modules/onboarding@file:./modules/onboarding/":
   version "1.0.0"
+  dependencies:
+    prop-types "^15.8.1"
+    react-native-app-intro-slider "^4.0.4"
 
-"@modules/privacy-policy-webview@file:./modules/privacy-policy-webview/":
+"@modules/privacy-policy-webview@file:./modules/privacy-policy-webview":
   version "1.0.0"
 
 "@modules/privacy-policy@file:./modules/privacy-policy":
