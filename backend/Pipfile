@@ -37,5 +37,5 @@ cb-terms-and-conditions = {editable = true, path = "./modules/terms_and_conditio
 cb-django-google-appointment = {editable = true, path = "./modules/django_google_appointment"}
 cb-django-push-notifications = {editable = true, path = "./modules/django_push_notifications"}
 cb-django-core = {editable = true, path = "./modules/django_core"}
-cb-profile = {editable = true, path = "./modules/profile"}
 cb-privacy-policy = {editable = true, path = "./modules/privacy_policy"}
+cb-profile = {editable = true, path = "./modules/profile"}
