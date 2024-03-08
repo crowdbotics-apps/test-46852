@@ -1521,6 +1521,14 @@
     prop-types "15.8.1"
     react-native-keyboard-aware-scroll-view "^0.9.3"
 
+"@modules/login@file:./modules/login/":
+  version "1.0.0"
+  dependencies:
+    "@react-navigation/native" "^5.9.2"
+    "@react-navigation/stack" "^5.14.2"
+    prop-types "15.8.1"
+    react-native-keyboard-aware-scroll-view "^0.9.3"
+
 "@modules/onboarding@file:./modules/onboarding":
   version "1.0.0"
   dependencies:
@@ -1554,9 +1562,6 @@
     uuid "^8.3.2"
 
 "@modules/splash@file:./modules/splash":
-  version "1.0.0"
-
-"@modules/splash@file:./modules/splash/":
   version "1.0.0"
 
 "@modules/terms-and-conditions-webview@file:./modules/terms-and-conditions-webview":
